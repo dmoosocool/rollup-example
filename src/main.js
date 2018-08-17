@@ -4,5 +4,4 @@ class compress {
   }
 };
 
-
-let pic_compress = new compress('abc');
+let pic_compress = new compress('hello rollup~');
