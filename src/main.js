@@ -1,7 +1,9 @@
-class compress {
-  constructor(file){
-    console.log(file);
+class h5camera {
+  // 初始化生成页面dom.
+  constructor(){
+    this.pravateKey = "h5camera-" + (+new Date),
+    this.dom = `<div id="${this.pravateKey}"></div>`;
   }
 };
 
-let pic_compress = new compress('hello rollup~');
+let camera = new h5camera();
